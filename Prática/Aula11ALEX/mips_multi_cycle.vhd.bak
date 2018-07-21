@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity mips_multi_cycle is
+port();
+end mips_multi_cycle;
+
+architecture Behavioral of mips_multi_cycle is
+begin

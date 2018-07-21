@@ -1,0 +1,41 @@
+# do mips_multi_cycle.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:53:28 on Dec 03,2017
+# vlog -work work mips_multi_cycle.vo 
+# -- Compiling module ControlUnit
+# 
+# Top level modules:
+# 	ControlUnit
+# End time: 11:53:28 on Dec 03,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:53:28 on Dec 03,2017
+# vlog -work work ControlUnittest.vwf.vt 
+# -- Compiling module ControlUnit_vlg_vec_tst
+# 
+# Top level modules:
+# 	ControlUnit_vlg_vec_tst
+# End time: 11:53:28 on Dec 03,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.ControlUnit_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 11:53:29 on Dec 03,2017
+# Loading work.ControlUnit_vlg_vec_tst
+# Loading work.ControlUnit
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# ** Warning: (vsim-3017) ControlUnittest.vwf.vt(53): [TFMPC] - Too few port connections. Expected 22, found 17.
+#    Time: 0 ps  Iteration: 0  Instance: /ControlUnit_vlg_vec_tst/i1 File: mips_multi_cycle.vo
+# ** Warning: (vsim-3722) ControlUnittest.vwf.vt(53): [TFMPC] - Missing connection for port '\global.bp.work.DisplayUnit_pkg.DU_CState_4__gl_output '.
+# ** Warning: (vsim-3722) ControlUnittest.vwf.vt(53): [TFMPC] - Missing connection for port '\global.bp.work.DisplayUnit_pkg.DU_CState_3__gl_output '.
+# ** Warning: (vsim-3722) ControlUnittest.vwf.vt(53): [TFMPC] - Missing connection for port '\global.bp.work.DisplayUnit_pkg.DU_CState_2__gl_output '.
+# ** Warning: (vsim-3722) ControlUnittest.vwf.vt(53): [TFMPC] - Missing connection for port '\global.bp.work.DisplayUnit_pkg.DU_CState_1__gl_output '.
+# ** Warning: (vsim-3722) ControlUnittest.vwf.vt(53): [TFMPC] - Missing connection for port '\global.bp.work.DisplayUnit_pkg.DU_CState_0__gl_output '.
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Note: $finish    : ControlUnittest.vwf.vt(75)
+#    Time: 1 us  Iteration: 0  Instance: /ControlUnit_vlg_vec_tst
+# End time: 11:53:29 on Dec 03,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6

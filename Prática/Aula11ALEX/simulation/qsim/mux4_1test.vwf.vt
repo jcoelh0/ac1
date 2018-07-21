@@ -1,0 +1,792 @@
+// Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "11/26/2017 09:53:09"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          mux4_1
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module mux4_1_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [31:0] DataIn1;
+reg [31:0] DataIn2;
+reg [31:0] DataIn3;
+reg [31:0] DataIn4;
+reg [1:0] Sel;
+// wires                                               
+wire [31:0] DataOut;
+
+// assign statements (if any)                          
+mux4_1 i1 (
+// port map - connection between master ports and signals/registers   
+	.DataIn1(DataIn1),
+	.DataIn2(DataIn2),
+	.DataIn3(DataIn3),
+	.DataIn4(DataIn4),
+	.DataOut(DataOut),
+	.Sel(Sel)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+// Sel[ 1 ]
+initial
+begin
+	repeat(3)
+	begin
+		Sel[1] = 1'b0;
+		Sel[1] = #130000 1'b1;
+		# 130000;
+	end
+	Sel[1] = 1'b0;
+	Sel[1] = #130000 1'b1;
+end 
+// Sel[ 0 ]
+initial
+begin
+	repeat(7)
+	begin
+		Sel[0] = 1'b0;
+		Sel[0] = #65000 1'b1;
+		# 65000;
+	end
+	Sel[0] = 1'b0;
+	Sel[0] = #65000 1'b1;
+end 
+// DataIn1[ 31 ]
+initial
+begin
+	DataIn1[31] = 1'b0;
+end 
+// DataIn1[ 30 ]
+initial
+begin
+	DataIn1[30] = 1'b0;
+end 
+// DataIn1[ 29 ]
+initial
+begin
+	DataIn1[29] = 1'b0;
+end 
+// DataIn1[ 28 ]
+initial
+begin
+	DataIn1[28] = 1'b0;
+end 
+// DataIn1[ 27 ]
+initial
+begin
+	DataIn1[27] = 1'b0;
+end 
+// DataIn1[ 26 ]
+initial
+begin
+	DataIn1[26] = 1'b0;
+end 
+// DataIn1[ 25 ]
+initial
+begin
+	DataIn1[25] = 1'b0;
+end 
+// DataIn1[ 24 ]
+initial
+begin
+	DataIn1[24] = 1'b0;
+end 
+// DataIn1[ 23 ]
+initial
+begin
+	DataIn1[23] = 1'b0;
+end 
+// DataIn1[ 22 ]
+initial
+begin
+	DataIn1[22] = 1'b0;
+end 
+// DataIn1[ 21 ]
+initial
+begin
+	DataIn1[21] = 1'b0;
+end 
+// DataIn1[ 20 ]
+initial
+begin
+	DataIn1[20] = 1'b0;
+end 
+// DataIn1[ 19 ]
+initial
+begin
+	DataIn1[19] = 1'b0;
+end 
+// DataIn1[ 18 ]
+initial
+begin
+	DataIn1[18] = 1'b0;
+end 
+// DataIn1[ 17 ]
+initial
+begin
+	DataIn1[17] = 1'b0;
+end 
+// DataIn1[ 16 ]
+initial
+begin
+	DataIn1[16] = 1'b0;
+end 
+// DataIn1[ 15 ]
+initial
+begin
+	DataIn1[15] = 1'b0;
+end 
+// DataIn1[ 14 ]
+initial
+begin
+	DataIn1[14] = 1'b0;
+end 
+// DataIn1[ 13 ]
+initial
+begin
+	DataIn1[13] = 1'b0;
+end 
+// DataIn1[ 12 ]
+initial
+begin
+	DataIn1[12] = 1'b0;
+end 
+// DataIn1[ 11 ]
+initial
+begin
+	DataIn1[11] = 1'b0;
+end 
+// DataIn1[ 10 ]
+initial
+begin
+	DataIn1[10] = 1'b0;
+end 
+// DataIn1[ 9 ]
+initial
+begin
+	DataIn1[9] = 1'b0;
+end 
+// DataIn1[ 8 ]
+initial
+begin
+	DataIn1[8] = 1'b0;
+end 
+// DataIn1[ 7 ]
+initial
+begin
+	DataIn1[7] = 1'b0;
+end 
+// DataIn1[ 6 ]
+initial
+begin
+	DataIn1[6] = 1'b0;
+end 
+// DataIn1[ 5 ]
+initial
+begin
+	DataIn1[5] = 1'b0;
+end 
+// DataIn1[ 4 ]
+initial
+begin
+	DataIn1[4] = 1'b0;
+end 
+// DataIn1[ 3 ]
+initial
+begin
+	DataIn1[3] = 1'b0;
+	DataIn1[3] = #520000 1'b1;
+end 
+// DataIn1[ 2 ]
+initial
+begin
+	DataIn1[2] = 1'b0;
+	DataIn1[2] = #260000 1'b1;
+	DataIn1[2] = #260000 1'b0;
+	DataIn1[2] = #260000 1'b1;
+end 
+// DataIn1[ 1 ]
+initial
+begin
+	repeat(3)
+	begin
+		DataIn1[1] = 1'b0;
+		DataIn1[1] = #130000 1'b1;
+		# 130000;
+	end
+	DataIn1[1] = 1'b0;
+	DataIn1[1] = #130000 1'b1;
+end 
+// DataIn1[ 0 ]
+initial
+begin
+	repeat(7)
+	begin
+		DataIn1[0] = 1'b0;
+		DataIn1[0] = #65000 1'b1;
+		# 65000;
+	end
+	DataIn1[0] = 1'b0;
+	DataIn1[0] = #65000 1'b1;
+end 
+// DataIn2[ 31 ]
+initial
+begin
+	DataIn2[31] = 1'b0;
+end 
+// DataIn2[ 30 ]
+initial
+begin
+	DataIn2[30] = 1'b0;
+end 
+// DataIn2[ 29 ]
+initial
+begin
+	DataIn2[29] = 1'b0;
+end 
+// DataIn2[ 28 ]
+initial
+begin
+	DataIn2[28] = 1'b0;
+end 
+// DataIn2[ 27 ]
+initial
+begin
+	DataIn2[27] = 1'b0;
+end 
+// DataIn2[ 26 ]
+initial
+begin
+	DataIn2[26] = 1'b0;
+end 
+// DataIn2[ 25 ]
+initial
+begin
+	DataIn2[25] = 1'b0;
+end 
+// DataIn2[ 24 ]
+initial
+begin
+	DataIn2[24] = 1'b0;
+end 
+// DataIn2[ 23 ]
+initial
+begin
+	DataIn2[23] = 1'b0;
+end 
+// DataIn2[ 22 ]
+initial
+begin
+	DataIn2[22] = 1'b0;
+end 
+// DataIn2[ 21 ]
+initial
+begin
+	DataIn2[21] = 1'b0;
+end 
+// DataIn2[ 20 ]
+initial
+begin
+	DataIn2[20] = 1'b0;
+end 
+// DataIn2[ 19 ]
+initial
+begin
+	DataIn2[19] = 1'b0;
+end 
+// DataIn2[ 18 ]
+initial
+begin
+	DataIn2[18] = 1'b0;
+end 
+// DataIn2[ 17 ]
+initial
+begin
+	DataIn2[17] = 1'b0;
+end 
+// DataIn2[ 16 ]
+initial
+begin
+	DataIn2[16] = 1'b0;
+end 
+// DataIn2[ 15 ]
+initial
+begin
+	DataIn2[15] = 1'b0;
+end 
+// DataIn2[ 14 ]
+initial
+begin
+	DataIn2[14] = 1'b0;
+end 
+// DataIn2[ 13 ]
+initial
+begin
+	DataIn2[13] = 1'b0;
+end 
+// DataIn2[ 12 ]
+initial
+begin
+	DataIn2[12] = 1'b0;
+end 
+// DataIn2[ 11 ]
+initial
+begin
+	DataIn2[11] = 1'b0;
+end 
+// DataIn2[ 10 ]
+initial
+begin
+	DataIn2[10] = 1'b0;
+end 
+// DataIn2[ 9 ]
+initial
+begin
+	DataIn2[9] = 1'b0;
+end 
+// DataIn2[ 8 ]
+initial
+begin
+	DataIn2[8] = 1'b1;
+end 
+// DataIn2[ 7 ]
+initial
+begin
+	DataIn2[7] = 1'b0;
+end 
+// DataIn2[ 6 ]
+initial
+begin
+	DataIn2[6] = 1'b0;
+end 
+// DataIn2[ 5 ]
+initial
+begin
+	DataIn2[5] = 1'b0;
+end 
+// DataIn2[ 4 ]
+initial
+begin
+	DataIn2[4] = 1'b0;
+end 
+// DataIn2[ 3 ]
+initial
+begin
+	DataIn2[3] = 1'b0;
+	DataIn2[3] = #520000 1'b1;
+end 
+// DataIn2[ 2 ]
+initial
+begin
+	DataIn2[2] = 1'b0;
+	DataIn2[2] = #260000 1'b1;
+	DataIn2[2] = #260000 1'b0;
+	DataIn2[2] = #260000 1'b1;
+end 
+// DataIn2[ 1 ]
+initial
+begin
+	repeat(3)
+	begin
+		DataIn2[1] = 1'b0;
+		DataIn2[1] = #130000 1'b1;
+		# 130000;
+	end
+	DataIn2[1] = 1'b0;
+	DataIn2[1] = #130000 1'b1;
+end 
+// DataIn2[ 0 ]
+initial
+begin
+	repeat(7)
+	begin
+		DataIn2[0] = 1'b0;
+		DataIn2[0] = #65000 1'b1;
+		# 65000;
+	end
+	DataIn2[0] = 1'b0;
+	DataIn2[0] = #65000 1'b1;
+end 
+// DataIn3[ 31 ]
+initial
+begin
+	DataIn3[31] = 1'b0;
+end 
+// DataIn3[ 30 ]
+initial
+begin
+	DataIn3[30] = 1'b0;
+end 
+// DataIn3[ 29 ]
+initial
+begin
+	DataIn3[29] = 1'b0;
+end 
+// DataIn3[ 28 ]
+initial
+begin
+	DataIn3[28] = 1'b0;
+end 
+// DataIn3[ 27 ]
+initial
+begin
+	DataIn3[27] = 1'b0;
+end 
+// DataIn3[ 26 ]
+initial
+begin
+	DataIn3[26] = 1'b0;
+end 
+// DataIn3[ 25 ]
+initial
+begin
+	DataIn3[25] = 1'b0;
+end 
+// DataIn3[ 24 ]
+initial
+begin
+	DataIn3[24] = 1'b0;
+end 
+// DataIn3[ 23 ]
+initial
+begin
+	DataIn3[23] = 1'b0;
+end 
+// DataIn3[ 22 ]
+initial
+begin
+	DataIn3[22] = 1'b0;
+end 
+// DataIn3[ 21 ]
+initial
+begin
+	DataIn3[21] = 1'b0;
+end 
+// DataIn3[ 20 ]
+initial
+begin
+	DataIn3[20] = 1'b0;
+end 
+// DataIn3[ 19 ]
+initial
+begin
+	DataIn3[19] = 1'b0;
+end 
+// DataIn3[ 18 ]
+initial
+begin
+	DataIn3[18] = 1'b0;
+end 
+// DataIn3[ 17 ]
+initial
+begin
+	DataIn3[17] = 1'b0;
+end 
+// DataIn3[ 16 ]
+initial
+begin
+	DataIn3[16] = 1'b0;
+end 
+// DataIn3[ 15 ]
+initial
+begin
+	DataIn3[15] = 1'b0;
+end 
+// DataIn3[ 14 ]
+initial
+begin
+	DataIn3[14] = 1'b0;
+end 
+// DataIn3[ 13 ]
+initial
+begin
+	DataIn3[13] = 1'b0;
+end 
+// DataIn3[ 12 ]
+initial
+begin
+	DataIn3[12] = 1'b1;
+end 
+// DataIn3[ 11 ]
+initial
+begin
+	DataIn3[11] = 1'b0;
+end 
+// DataIn3[ 10 ]
+initial
+begin
+	DataIn3[10] = 1'b0;
+end 
+// DataIn3[ 9 ]
+initial
+begin
+	DataIn3[9] = 1'b0;
+end 
+// DataIn3[ 8 ]
+initial
+begin
+	DataIn3[8] = 1'b0;
+end 
+// DataIn3[ 7 ]
+initial
+begin
+	DataIn3[7] = 1'b0;
+end 
+// DataIn3[ 6 ]
+initial
+begin
+	DataIn3[6] = 1'b0;
+end 
+// DataIn3[ 5 ]
+initial
+begin
+	DataIn3[5] = 1'b0;
+end 
+// DataIn3[ 4 ]
+initial
+begin
+	DataIn3[4] = 1'b0;
+end 
+// DataIn3[ 3 ]
+initial
+begin
+	DataIn3[3] = 1'b0;
+	DataIn3[3] = #520000 1'b1;
+end 
+// DataIn3[ 2 ]
+initial
+begin
+	DataIn3[2] = 1'b0;
+	DataIn3[2] = #260000 1'b1;
+	DataIn3[2] = #260000 1'b0;
+	DataIn3[2] = #260000 1'b1;
+end 
+// DataIn3[ 1 ]
+initial
+begin
+	repeat(3)
+	begin
+		DataIn3[1] = 1'b0;
+		DataIn3[1] = #130000 1'b1;
+		# 130000;
+	end
+	DataIn3[1] = 1'b0;
+	DataIn3[1] = #130000 1'b1;
+end 
+// DataIn3[ 0 ]
+initial
+begin
+	repeat(7)
+	begin
+		DataIn3[0] = 1'b0;
+		DataIn3[0] = #65000 1'b1;
+		# 65000;
+	end
+	DataIn3[0] = 1'b0;
+	DataIn3[0] = #65000 1'b1;
+end 
+// DataIn4[ 31 ]
+initial
+begin
+	DataIn4[31] = 1'b0;
+end 
+// DataIn4[ 30 ]
+initial
+begin
+	DataIn4[30] = 1'b0;
+end 
+// DataIn4[ 29 ]
+initial
+begin
+	DataIn4[29] = 1'b0;
+end 
+// DataIn4[ 28 ]
+initial
+begin
+	DataIn4[28] = 1'b0;
+end 
+// DataIn4[ 27 ]
+initial
+begin
+	DataIn4[27] = 1'b0;
+end 
+// DataIn4[ 26 ]
+initial
+begin
+	DataIn4[26] = 1'b0;
+end 
+// DataIn4[ 25 ]
+initial
+begin
+	DataIn4[25] = 1'b0;
+end 
+// DataIn4[ 24 ]
+initial
+begin
+	DataIn4[24] = 1'b1;
+end 
+// DataIn4[ 23 ]
+initial
+begin
+	DataIn4[23] = 1'b0;
+end 
+// DataIn4[ 22 ]
+initial
+begin
+	DataIn4[22] = 1'b0;
+end 
+// DataIn4[ 21 ]
+initial
+begin
+	DataIn4[21] = 1'b0;
+end 
+// DataIn4[ 20 ]
+initial
+begin
+	DataIn4[20] = 1'b1;
+end 
+// DataIn4[ 19 ]
+initial
+begin
+	DataIn4[19] = 1'b0;
+end 
+// DataIn4[ 18 ]
+initial
+begin
+	DataIn4[18] = 1'b0;
+end 
+// DataIn4[ 17 ]
+initial
+begin
+	DataIn4[17] = 1'b0;
+end 
+// DataIn4[ 16 ]
+initial
+begin
+	DataIn4[16] = 1'b0;
+end 
+// DataIn4[ 15 ]
+initial
+begin
+	DataIn4[15] = 1'b0;
+end 
+// DataIn4[ 14 ]
+initial
+begin
+	DataIn4[14] = 1'b0;
+end 
+// DataIn4[ 13 ]
+initial
+begin
+	DataIn4[13] = 1'b0;
+end 
+// DataIn4[ 12 ]
+initial
+begin
+	DataIn4[12] = 1'b0;
+end 
+// DataIn4[ 11 ]
+initial
+begin
+	DataIn4[11] = 1'b0;
+end 
+// DataIn4[ 10 ]
+initial
+begin
+	DataIn4[10] = 1'b0;
+end 
+// DataIn4[ 9 ]
+initial
+begin
+	DataIn4[9] = 1'b0;
+end 
+// DataIn4[ 8 ]
+initial
+begin
+	DataIn4[8] = 1'b0;
+end 
+// DataIn4[ 7 ]
+initial
+begin
+	DataIn4[7] = 1'b0;
+end 
+// DataIn4[ 6 ]
+initial
+begin
+	DataIn4[6] = 1'b0;
+end 
+// DataIn4[ 5 ]
+initial
+begin
+	DataIn4[5] = 1'b0;
+end 
+// DataIn4[ 4 ]
+initial
+begin
+	DataIn4[4] = 1'b0;
+end 
+// DataIn4[ 3 ]
+initial
+begin
+	DataIn4[3] = 1'b0;
+	DataIn4[3] = #520000 1'b1;
+end 
+// DataIn4[ 2 ]
+initial
+begin
+	DataIn4[2] = 1'b0;
+	DataIn4[2] = #260000 1'b1;
+	DataIn4[2] = #260000 1'b0;
+	DataIn4[2] = #260000 1'b1;
+end 
+// DataIn4[ 1 ]
+initial
+begin
+	repeat(3)
+	begin
+		DataIn4[1] = 1'b0;
+		DataIn4[1] = #130000 1'b1;
+		# 130000;
+	end
+	DataIn4[1] = 1'b0;
+	DataIn4[1] = #130000 1'b1;
+end 
+// DataIn4[ 0 ]
+initial
+begin
+	repeat(7)
+	begin
+		DataIn4[0] = 1'b0;
+		DataIn4[0] = #65000 1'b1;
+		# 65000;
+	end
+	DataIn4[0] = 1'b0;
+	DataIn4[0] = #65000 1'b1;
+end 
+endmodule
+

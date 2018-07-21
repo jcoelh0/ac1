@@ -1,0 +1,17 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity InstructionMemory is
+	generic(Addr_Bus_Size : positive := 6);
+	port(	adress 	: in std_logic_vector(Addr_Bus_Size-1 downto 0);
+			Data		: out std_logic_vector(31 downto 0));
+end InstructionMemory;
+
+architecture Behavioral of InstructionMemory is
+	constant Num_words : positive :=( 2**Addr_Bus_Size);
+	subtype TData is std_logic_vector(31 downto 0);
+	type TMemory is array(0 to Num_words-1) of TData;
+	constant s_memory : TMemory :=(X"2002001A",
+			X"2003FFF9",X"00432020",X"00432822",X"00433024",
+			X"00433825",X"00434027",X"00434826",X"0043502A",
+			X"28EBFFFE",X"292CFFE7", others => X"00000000");

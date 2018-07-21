@@ -1,0 +1,525 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[15]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[16]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[17]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[18]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[19]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[20]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[21]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[22]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[23]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[24]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[25]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[26]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[27]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[28]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[29]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[30]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[31]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pcSource[0]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pcSource[1]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "zero",
+					"strict" : false
+				},
+				{
+					"name" : "pcWriteCond",
+					"strict" : false
+				},
+				{
+					"name" : "pcWrite",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[1]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[2]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[3]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[4]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[5]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[6]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[7]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[7]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[8]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[8]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[9]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[9]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[10]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[10]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[11]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[11]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[12]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[12]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[13]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[13]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[14]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[14]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[15]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[15]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[16]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[16]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[17]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[15]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[17]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[18]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[16]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[18]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[19]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[17]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[19]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[20]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[18]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[20]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[21]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[19]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[21]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[22]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[20]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[22]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[23]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[21]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[23]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[24]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[22]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[24]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[25]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[23]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[25]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[26]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[24]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[26]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[27]",
+					"strict" : false
+				},
+				{
+					"name" : "jAddr[25]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[27]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[28]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[28]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[29]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[29]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[30]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[30]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[31]",
+					"strict" : false
+				},
+				{
+					"name" : "bta[31]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

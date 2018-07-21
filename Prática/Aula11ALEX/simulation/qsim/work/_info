@@ -1,0 +1,176 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/UA/2ano/AC1/pratica/aula11/simulation/qsim
+vControlUnit
+Z1 !s110 1512302008
+!i10b 1
+!s100 IfjEE?VU30FlD8?iXI?@M1
+I5VOO1mfz54M`bk_Eb]L?=3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1512302006
+Z3 8mips_multi_cycle.vo
+Z4 Fmips_multi_cycle.vo
+Z5 L0 32
+Z6 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z7 !s108 1512302008.000000
+Z8 !s107 mips_multi_cycle.vo|
+Z9 !s90 -work|work|mips_multi_cycle.vo|
+!i113 1
+Z10 o-work work
+n@control@unit
+vControlUnit_vlg_vec_tst
+R1
+!i10b 1
+!s100 4FW]eRPGQXbOVPO9n6H?a1
+IR=_Z_cWA``=ODZGd3PdJJ3
+R2
+R0
+w1512302000
+8ControlUnittest.vwf.vt
+FControlUnittest.vwf.vt
+Z11 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 ControlUnittest.vwf.vt|
+!s90 -work|work|ControlUnittest.vwf.vt|
+!i113 1
+R10
+n@control@unit_vlg_vec_tst
+vmux4_1
+!s110 1511689997
+!i10b 1
+!s100 0okLYXHX[9SNdV<>BM]XW0
+INUeWgcc]cJ8k9;MkzhoR=0
+R2
+R0
+w1511689996
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1511689997.000000
+R8
+R9
+!i113 1
+R10
+vmux4_1_vlg_vec_tst
+!s110 1511689998
+!i10b 1
+!s100 c5JJ=GFCnn<W:=8<V3kz93
+IWIEF`lP=IgC7Uza95j:N:1
+R2
+R0
+w1511689990
+8mux4_1test.vwf.vt
+Fmux4_1test.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+!s108 1511689998.000000
+!s107 mux4_1test.vwf.vt|
+!s90 -work|work|mux4_1test.vwf.vt|
+!i113 1
+R10
+vPCupdate
+Z12 !s110 1511691487
+!i10b 1
+!s100 zYLPk8lQn9a5BZE1ce1Ql2
+Ii87XJQcJ^iYZB[bcF:?]V3
+R2
+R0
+w1511691485
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1511691486.000000
+R8
+R9
+!i113 1
+R10
+n@p@cupdate
+vPCupdate_vlg_vec_tst
+R12
+!i10b 1
+!s100 Md>fcMUf`5aoj;TH=LHHj2
+ISE9TKE<mZmKl=WlED;P>m0
+R2
+R0
+w1511691478
+8pcupdatetest.vwf.vt
+Fpcupdatetest.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+!s108 1511691487.000000
+!s107 pcupdatetest.vwf.vt|
+!s90 -work|work|pcupdatetest.vwf.vt|
+!i113 1
+R10
+n@p@cupdate_vlg_vec_tst
+vReg32bits
+!s110 1511692383
+!i10b 1
+!s100 kzaQS>F:I]PfXQ6M`RXb53
+I4aE>DhhZ=Z>Ao9W>V9Q2L1
+R2
+R0
+w1511692382
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1511692383.000000
+R8
+R9
+!i113 1
+R10
+n@reg32bits
+vReg32bits_vlg_vec_tst
+!s110 1511692384
+!i10b 1
+!s100 RYUSA;9ik6ezn4leP<V2j2
+IWQhP3oSA^V92A3MWE];Qh3
+R2
+R0
+w1511692375
+8reg32bitstest.vwf.vt
+Freg32bitstest.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+!s108 1511692384.000000
+!s107 reg32bitstest.vwf.vt|
+!s90 -work|work|reg32bitstest.vwf.vt|
+!i113 1
+R10
+n@reg32bits_vlg_vec_tst
